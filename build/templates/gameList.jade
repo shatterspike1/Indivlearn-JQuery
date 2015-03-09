@@ -1,0 +1,6 @@
+block content
+
+each item in items
+    div.row
+        a(href="#", onClick='gameView("' + item.id + '")')
+            = item.name
