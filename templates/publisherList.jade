@@ -1,0 +1,6 @@
+block content
+
+each item in items
+    div.row
+        a(href="#", onClick='publisherView("' + item.id + '")')
+            = item.name
