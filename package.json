@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "jade": "1.9.2",
+    "xml2js": "0.4.5",
+    "lodash": "3.3.1",
+    "xmlbuilder": ">=1.0.0",
+    "sax": "0.6.x",
+    "require": "2.4.17"
+  }
+  
+}

@@ -1,0 +1,34 @@
+doctype html
+html(lang='en')
+  head        
+    base(href='/')
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width')     
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Raleway:400,700,400')
+    link(rel='stylesheet', href='css/normalize.css')
+    link(rel='stylesheet', href='css/skeleton.css')
+    link(rel='stylesheet', href='css/custom.css')
+
+  body
+
+    div.container
+        h1 MTG Deckbrew
+        include navbar
+
+    div#content
+      div.container
+        block content
+
+    
+    script(src="http://code.jquery.com/jquery.min.js")
+    script(src="js/jade.js")  
+    script(src="js/lodash.min.js")
+    script(src="js/xhr.js")
+    script(src="js/require.js")
+    script(src="js/xml2json.js")
+    script(src="js/videogames/videogameList.js")
+    script(src="js/videogames/videogameView.js")
+    script(src="js/publishers/publisherList.js")
+    script(src="js/publishers/publisherView.js")  
+    script(src="js/app.js")
